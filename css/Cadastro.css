@@ -1,0 +1,234 @@
+@font-face {
+    font-family: Montserrat;
+    src: url(../fontes/Montserrat-VariableFont_wght.ttf)
+  }
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.div1{
+    display: flex;
+    justify-content: center;
+}
+
+.div2{
+    background-color: #FFFFFF;
+    height: 100vh;
+    width: 50%;
+}
+
+.div3{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #CB1E36;
+    width: 50vw;
+    
+}
+
+.imagem{
+    display: flex;
+    justify-content: center;
+    margin-left: 120px;
+    margin-top: 120px;
+    height: 690px;
+
+}
+
+.logo{  
+    margin-top: 48px;
+    margin-bottom: 64px;
+}
+
+.logo2{
+    width: 350px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.formulario{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+   
+}
+
+label{
+    font-family: 'Montserrat', sans-serif;
+    color: #FFFFFF;
+    font-size: 28px;
+    font-weight: lighter;
+    margin-left: 10px;
+}
+
+input{
+    height: 50px;
+    margin-bottom: 40px;
+    border: none;
+    box-shadow: 2px 2px 2px 2px #3f3d560c;
+    border-radius: 12px;
+    width: 550px;
+    margin-right: auto;
+    margin-left: auto;
+    border: none;
+}
+
+.botao{
+
+    width: 285px;
+    height: 64px;
+    color:  #EA0032;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    font-size: 24px;
+    border-radius: 15px;
+    border: none;
+    margin-top: 32px;
+    
+}
+
+.texto1{
+
+    visibility: hidden;
+    width: 0px;
+    height: 0px;
+}
+
+.texto2{
+    color: #FFFFFF;
+   font-size: 16px;
+   font-family: 'Montserrat', sans-serif;
+   font-weight: bold;
+   margin-top: 40px;
+}
+
+.termo{
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 16px;
+}
+
+.conecta{
+
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+a{
+    text-decoration: none;
+    color: #CB1E36;
+}
+
+
+
+@media (max-width:991px){
+
+.imagem{
+
+    width: 0;
+    height: 0;
+}
+
+.div2{
+
+    width: 0;
+    height: 0;
+}
+
+.div3{
+    display: flex;
+    width: 200vw;
+    height: 108vh;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.texto1{
+    width: 320px;
+    visibility: visible;
+    font-family: 'Montserrat', sans-serif;
+    color: #FFFFFF;
+    font-size: 14px;
+    text-transform: uppercase;
+    display: flex;
+    justify-content: center;
+    margin-top: 25px;
+    margin-bottom: 55px;
+}
+
+
+.logo{
+    display: flex;
+    justify-content: center;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.formulario{
+
+    display: flex;
+    justify-content: center;
+    width: 480px;
+}
+
+input{
+
+    margin-right: auto;
+    width: 240px;
+    height: 29px;
+    margin-left: auto;
+    border-radius: 7px;
+    margin-top: 0px;
+    margin-bottom: 24px;
+}
+
+
+.termo{
+
+    display: flex;
+    justify-content: center;
+}
+
+ .logo2{
+    display: flex;
+    justify-content: center;
+    margin-left: 140px;
+    margin-top: 40px;
+    width: 164px;
+    margin-bottom: 0px;
+    margin-left: auto;
+    margin-right: auto; 
+ }
+
+ label{
+    align-self: flex-start;
+    margin-bottom: 0px;
+    margin-left: 30px;
+    font-size: 18px;
+ }
+
+ .formulario{
+     width: 300px;
+ }
+
+ .texto2{
+     font-size: 9px;
+     margin-top: 32px;
+ }
+
+ .botao{
+    width: 190px;
+    height: 40px;
+    border-radius: 7px;
+    font-size: 16px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 16px;
+ }
+
+}
